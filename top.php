@@ -60,7 +60,6 @@
     <!-- Header -->
     <header class="masthead">
       <div class="container">
-        <div class="intro-text">
           <div class="intro-lead-in"></div>
           <div class="intro-heading text-uppercase">Packing me!</div>
           <a class="signIn btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">SIGN IN</a>
