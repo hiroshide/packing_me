@@ -287,7 +287,7 @@ header.masthead .intro-text .intro-heading {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
-  text-align: center;
+  text-align: left;
   background-color: #fff;
 }
 
@@ -305,6 +305,47 @@ header.masthead .intro-text .intro-heading {
 
 #portfolio * {
   z-index: 2;
+}
+
+/*ランキング*/
+.big-crown{
+  float: left;
+  margin-left:120px;
+  position:relative;
+}
+
+.big-crown p{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.small-crown{
+  position:relative;
+}
+
+.small-crown p{
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 70%;
+  left: 9%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+
+.text-muted{
+  text-align:right;
 }
 
 @media (min-width: 767px) {
@@ -851,6 +892,7 @@ li,ul{
 
 /*ここまでサイドバー*/
 
+<<<<<<< HEAD
 footer .empty-box{
   height:100px;
 }
@@ -896,3 +938,74 @@ footer .empty-box{
 }
 /*ここまで投稿フォーム*/
 /*post.php終わり*/
+=======
+/*ローディングのアイコン*/
+div#load{
+  margin:0 auto;
+}
+
+/*edit_profile.html*/
+.profile-edit{
+  width:500px;
+  margin: 0 auto;
+}
+.profile-img{
+  margin-top: 110px;
+  text-align: center;
+}
+.profile-img img{
+  width:200px;
+  height:200px;
+  border-radius: 200px;
+  float:left;
+
+}
+.profile-img h2{
+  font-size: 40px;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+.profile-img span{
+  clear:both;
+}
+.profile-text span{
+  margin-right: 20px;
+}
+.profile-textarea span{
+  margin-right: 20px;
+  vertical-align: top;
+}
+.profile-text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  text-align: right;
+}
+.profile-text input{
+  width:240px;
+}
+.profile-textarea{
+  text-align: right;
+  margin-bottom: 50px;
+}
+.profile-textarea textarea{
+  width:240px;
+  height:180px;
+}
+.profile-textarea span{
+
+}
+.profile-edit .edit-button button{
+  padding:10px 90px;
+  margin-bottom: 50px;
+}
+.edit-button{
+  text-align: right;
+}
+.profile-edit button{
+  padding:10px 10px;
+}
+
+/*ここまでedit_profile.html*/
+
+>>>>>>> 7ebf834a5c2d0be69028676aa538495d3a17d7c0
