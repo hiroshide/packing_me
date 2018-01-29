@@ -1007,5 +1007,40 @@ div#load{
 }
 
 /*ここまでedit_profile.html*/
+/*ここからmypage.html*/
+.mypage{
+  width:60%;
+  text-align: left;
+}
+.center{
+  margin:0 auto;
+}
+/*右側固定カラム*/
+.right-caram{
+  margin-right: 50px;
+  width:20%;
+  float:right;
+  margin-top: 110px;
+}
+.profile-imgs img{
+  width:200px;
+  height:200px;
+  border-radius: 200px;
+}
+.right-caram button{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.right-caram span,p{
+  text-align: center;
+}
+.be-center{
+  text-align: center;
+}
+.buttons{
+  margin-top: 20px;
+}
+/*ここまで右側固定カラム*/
+/*ここまでmypage*/
 
 >>>>>>> 7ebf834a5c2d0be69028676aa538495d3a17d7c0
