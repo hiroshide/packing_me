@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+html, body{
+  margin:0;
+}
 p {
   line-height: 1.75;
 }
@@ -711,6 +713,7 @@ footer {
   padding: 25px 0;
   text-align: center;
   background-color: #212529;
+  clear:both;
 }
 
 footer span.copyright {
@@ -752,6 +755,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 .post-group{
+  text-align: center;
   display: block;
   margin-bottom:50px;
   margin-left:100px;
@@ -895,8 +899,120 @@ li,ul{
 
 /*ここまでサイドバー*/
 
+<<<<<<< HEAD
+footer .empty-box{
+  height:100px;
+}
+.post-img{
+  float: left;
+}
+/*post.php*/
+/*投稿フォーム*/
+.post-form{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.post-form span{
+  clear:both;
+  text-align: right;
+}
+.post-form input{
+  display: block;
+  clear:both;
+  margin: 0 auto;
+
+}
+.post-form textarea{
+  display: block;
+  clear:both;
+  margin: 0 auto;
+}
+.post-post-img{
+  margin:0 auto;
+  width:600px;
+  height: 400px;
+}
+.top-top-top{
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.post-form button{
+  margin-top: 20px;
+}
+.post-form select{
+  margin-bottom: 10px;
+}
+/*ここまで投稿フォーム*/
+/*post.php終わり*/
+=======
 /*ローディングのアイコン*/
 div#load{
   margin:0 auto;
 }
 
+/*edit_profile.html*/
+.profile-edit{
+  width:500px;
+  margin: 0 auto;
+}
+.profile-img{
+  margin-top: 110px;
+  text-align: center;
+}
+.profile-img img{
+  width:200px;
+  height:200px;
+  border-radius: 200px;
+  float:left;
+
+}
+.profile-img h2{
+  font-size: 40px;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+.profile-img span{
+  clear:both;
+}
+.profile-text span{
+  margin-right: 20px;
+}
+.profile-textarea span{
+  margin-right: 20px;
+  vertical-align: top;
+}
+.profile-text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  text-align: right;
+}
+.profile-text input{
+  width:240px;
+}
+.profile-textarea{
+  text-align: right;
+  margin-bottom: 50px;
+}
+.profile-textarea textarea{
+  width:240px;
+  height:180px;
+}
+.profile-textarea span{
+
+}
+.profile-edit .edit-button button{
+  padding:10px 90px;
+  margin-bottom: 50px;
+}
+.edit-button{
+  text-align: right;
+}
+.profile-edit button{
+  padding:10px 10px;
+}
+
+/*ここまでedit_profile.html*/
+
+>>>>>>> 7ebf834a5c2d0be69028676aa538495d3a17d7c0
