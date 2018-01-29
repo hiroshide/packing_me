@@ -240,6 +240,7 @@ header.masthead .intro-text .intro-heading {
   margin: 0 0 15px;
 }
 
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
@@ -247,6 +248,8 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
   cursor: pointer;
 }
+
+
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   position: absolute;
@@ -345,7 +348,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 .text-muted{
-  text-align:right;
+  text-align:center;
+}
+
+.text-more{
+  text-align: right;
 }
 
 @media (min-width: 767px) {
