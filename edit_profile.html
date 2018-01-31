@@ -60,7 +60,8 @@
         <div class="profile-img">
           <img src="naoki.jpg">
           <h2>aaagon</h2>
-          <button>プロフィール画像を変更する</button>
+          <input type="file" id="file" style="display:none;" onchange="$('#fake_input_file').val($(this).val())">
+          <button onClick="$('#file').click();">プロフィール画像を変更する</button>
         </div>
         <br>
         <div class="profile-text">
@@ -77,13 +78,11 @@
         </div>
         <div class="profile-textarea">
           <span>自己紹介</span>
-          <textarea>Hello,everyone!good afternoon.
-            I LOVE TRAVEL TOO MUCH!lets go travel with us.
-            See you in the world.
-            Thank you.
+          <textarea>Hello, lets go travel with us.
+            See you in the world. Thank you.
           </textarea>
         </div>
-        <div class="editButton"><button>変更する</button></div>
+        <div class="editButton"><a href="mypage.html"><button>変更する</button></a></div>
       </div>
     </div>
 

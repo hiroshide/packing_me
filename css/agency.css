@@ -917,7 +917,7 @@ footer .empty-box{
 .post-img{
   float: left;
 }
-/*post.php*/
+/*post.html*/
 /*投稿フォーム*/
 .post-form{
   margin-bottom: 30px;
@@ -1021,12 +1021,20 @@ div#load{
 .profile-edit .editButton button{
   padding:10px 120px;
   margin-bottom: 30px;
+  border-radius: 5px;
+}
+.profile-edit .editButton button:hover{
+  background-color: #eceaea;
 }
 .editButton{
   text-align: right;
 }
 .profile-edit button{
   padding:10px 10px;
+  border-radius: 5px;
+}
+.profile-edit button:hover{
+  background-color: #eceaea;
 }
 
 /*ここまでedit_profile.html*/
@@ -1149,5 +1157,38 @@ div#load{
     background-color: #fec810;
 }
 /*ここまでmypage*/
-
+/*home.html*/
+.image-with-link{
+  width:70px;
+  height:70px;
+  border-radius: 70px;
+  display: inline;
+  float:left;
+  margin-right: 20px;
+  background-color: #000;
+}
+.image-with-link:hover{
+  opacity: 0.6;
+}
+.name-with-link{
+  line-height: 70px;
+  font-size:30px;
+  color:black;
+}
+.change-img-size{
+  clear: both;
+}
+.profile-link span{
+  text-decoration:none;
+}
+.profile-container{
+  width:400px;
+  margin:0px auto;
+  padding: 10px;
+  background-color: #fff;
+}
+.name-with-link:hover{
+  opacity: 0.6;
+}
+/*ここまでhome.html*/
 >>>>>>> 7ebf834a5c2d0be69028676aa538495d3a17d7c0
