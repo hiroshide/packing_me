@@ -947,7 +947,7 @@ footer .empty-box{
 /*post.php終わり*/
 =======
 /*ローディングのアイコン*/
-div#load{
+div#load .fa-spinner .sr-only{
   margin:0 auto;
 }
 
