@@ -293,7 +293,10 @@ header.masthead .intro-text .intro-heading {
   text-align: left;
   background-color: #fff;
 }
-
+.change-img-size{
+  /*width:500px;*/
+  /*height:400px;*/
+}
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
@@ -823,6 +826,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .coment .user-name{
   color:initial;
 }
+
+
 /*サイドバー部分*/
 li,ul{
   list-style: none;
@@ -830,7 +835,7 @@ li,ul{
   margin: 0;
 }
 #navigation {
-    background: #0e1a35;
+    background-color: #212529;
 }
 
 #navigation {
@@ -842,7 +847,9 @@ li,ul{
   display: table;
   padding: 0;
   height: 100%;
-  width: 200px;
+  width: 20%;
+  margin-right: 50px;
+  margin-top: 110px;
 }
 
 .display-table-row {
@@ -863,14 +870,18 @@ li,ul{
 .navi i {
     font-size: 20px;
 }
-
+.navi{
+    text-align: center;
+}
 .logo {
     text-align: center;
+    line-height: 50px;
+    height:50px;
 }
 
 .navi a {
-    border-bottom: 1px solid #0d172e;
-    border-top: 1px solid #0d172e;
+    border-bottom: 1px solid #212529;
+    border-top: 1px solid #212529;
     color: #ffffff;
     display: block;
     font-size: 17px;
@@ -917,12 +928,15 @@ footer .empty-box{
   text-align: right;
 }
 .post-form input{
+  width:300px;
   display: block;
   clear:both;
   margin: 0 auto;
 
 }
 .post-form textarea{
+  width: 300px;
+  height:300px;
   display: block;
   clear:both;
   margin: 0 auto;
@@ -934,13 +948,14 @@ footer .empty-box{
 }
 .top-top-top{
   margin-top: 120px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .post-form button{
   margin-top: 20px;
 }
 .post-form select{
+  margin-top:20px;
   margin-bottom: 10px;
 }
 /*ここまで投稿フォーム*/
@@ -989,24 +1004,25 @@ div#load .fa-spinner .sr-only{
   text-align: right;
 }
 .profile-text input{
-  width:240px;
+  width:300px;
+
 }
 .profile-textarea{
   text-align: right;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .profile-textarea textarea{
-  width:240px;
-  height:180px;
+  width:300px;
+  height:200px;
 }
 .profile-textarea span{
 
 }
-.profile-edit .edit-button button{
-  padding:10px 90px;
-  margin-bottom: 50px;
+.profile-edit .editButton button{
+  padding:10px 120px;
+  margin-bottom: 30px;
 }
-.edit-button{
+.editButton{
   text-align: right;
 }
 .profile-edit button{
@@ -1018,6 +1034,7 @@ div#load .fa-spinner .sr-only{
 .mypage{
   width:60%;
   text-align: left;
+  margin-left: 40px;
 }
 .center{
   margin:0 auto;
@@ -1025,18 +1042,46 @@ div#load .fa-spinner .sr-only{
 /*右側固定カラム*/
 .right-caram{
   margin-right: 50px;
-  width:20%;
+  width:25%;
   float:right;
-  margin-top: 110px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  background-color:#f8f9fa;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
 }
 .profile-imgs img{
   width:200px;
   height:200px;
   border-radius: 200px;
 }
-.right-caram button{
+.like-button{
   text-align: center;
   margin-bottom: 10px;
+  padding: 10px 10px;
+  width:230px;
+  border-radius: 5px;
+  color:white;
+  background-color: #fed136;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.like-button:hover{
+  background-color:#fed1368c;
+}
+.edit-prof-button{
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  /*background-color: #fed136;*/
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-weight: 700;*/
+}
+.edit-prof-button:hover{
+  background-color: #eceaea;
 }
 .right-caram span,p{
   text-align: center;
@@ -1048,6 +1093,61 @@ div#load .fa-spinner .sr-only{
   margin-top: 20px;
 }
 /*ここまで右側固定カラム*/
+
+.profile-imgs h3{
+  text-align: center;
+}
+.profile-imgs img{
+  display: inline-block;
+  text-align: center;
+}
+.top-image{
+  text-align: center;
+}
+.profile-texts p{
+  text-align: left;
+  margin-bottom: 0px;
+}
+.profile-texts{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mypage-texts span{
+  display: block;
+  color:#fed136;
+  background-color: black;
+}
+.mypage-texts p{
+  display: block;
+  background-color:#ecf0f7bf;
+  line-height: 50px;
+}
+.delete-button{
+  color:white;
+  background-color: #fed136;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-color: #fed136;
+}
+.delete-button:hover{
+  background-color: #fec810;
+}
+.edit-button{
+  color:white;
+  background-color: #fed136;
+  padding: 5px 30px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-color: #fed136;
+}
+.edit-button:hover{
+    background-color: #fec810;
+}
 /*ここまでmypage*/
 
 >>>>>>> 7ebf834a5c2d0be69028676aa538495d3a17d7c0

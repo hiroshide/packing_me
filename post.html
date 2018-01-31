@@ -39,10 +39,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">投稿する</a>
+              <a class="nav-link js-scroll-trigger" href="home.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">My Page</a>
+              <a class="nav-link js-scroll-trigger" href="mypage.html">My Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="post.html">投稿する</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="top.html">Log out</a>
             </li>
           </ul>
         </div>
@@ -57,6 +63,7 @@
     </div>
       <div class="post-form">
         <form>
+          <input type="file" name="picture_path" class="form-control">
           <select name="categories"> 
             <option value="1" selected="">タイプを選択</option> 
             <option value="2">Traveler</option> 
@@ -71,15 +78,15 @@
             <option value="4">1ヶ月以上</option> 
           </select>
           <center>場所</center>
-          <input type="" name="">
+          <input type="" name="" placeholder="例）フィリピン　セブ島">
           <center>期間</center>
-          <input type="" name="">
+          <input type="" name="" placeholder="例）４日間">
           <center>backpack</center>
-          <input type="" name="">
+          <input type="" name="" placeholder="例）the north face Caelus 35L">
           <center>重量</center>
-          <input type="" name="">
+          <input type="" name="" placeholder="例）13kg">
           <center>中身詳細</center>
-          <textarea></textarea>
+          <textarea placeholder="例）mackbookpro, dji spark, omd-em5 mark2, t-shirts 3, pants 3..."></textarea>
           <button>投稿する</button>
         </form>
        </div> 
@@ -99,7 +106,7 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="privacy_policy.html">Privacy Policy</a>
               </li>
             </ul>
           </div>
