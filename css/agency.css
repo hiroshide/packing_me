@@ -175,6 +175,12 @@ img::-moz-selection {
   }
 }
 
+/*header*/
+.crown-icon img{
+  margin-right: 15px;
+  width:50px;
+  height:50px;
+}
 header.masthead {
   text-align: center;
   color: white;
@@ -245,6 +251,7 @@ header.masthead .intro-text .intro-heading {
   position: relative;
   display: block;
   max-width: 400px;
+  /*max-height: 260px;*/
   margin: 0 auto;
   cursor: pointer;
 }
@@ -293,6 +300,10 @@ header.masthead .intro-text .intro-heading {
   text-align: left;
   background-color: #fff;
 }
+/*.row-eq-height{
+  display: flex;
+  flex-wrap: wrap;
+}*/
 .change-img-size{
   /*width:500px;*/
   /*height:400px;*/
@@ -835,7 +846,7 @@ li,ul{
   margin: 0;
 }
 #navigation {
-    background-color: #212529;
+    background-color: #ffffff;
 }
 
 #navigation {
@@ -877,15 +888,21 @@ li,ul{
     text-align: center;
     line-height: 50px;
     height:50px;
+    font-size: 25px;
+}
+.logo a{
+  color:black;
+  text-decoration: none;
+  font-weight: 800px;
 }
 
 .navi a {
-    border-bottom: 1px solid #212529;
-    border-top: 1px solid #212529;
-    color: #ffffff;
+    border-bottom: 1px solid #f8f9fa;
+    border-top: 1px solid #f8f9fa;
+    color: black;
     display: block;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 28px 20px;
     text-decoration: none;
 }
@@ -902,7 +919,7 @@ li,ul{
 }
 
 .navi a:hover {
-    background: #122143 none repeat scroll 0 0;
+    background: #fed136 none repeat scroll 0 0;
     border-left: 5px solid #5584ff;
     display: block;
     padding-left: 15px;
@@ -932,7 +949,6 @@ footer .empty-box{
   display: block;
   clear:both;
   margin: 0 auto;
-
 }
 .post-form textarea{
   width: 300px;
@@ -953,10 +969,21 @@ footer .empty-box{
 }
 .post-form button{
   margin-top: 20px;
+  cursor: pointer;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fed136;
+  color:#fff;
+}
+.post-form button:hover{
+  background-color:#fec810;
 }
 .post-form select{
   margin-top:20px;
   margin-bottom: 10px;
+  cursor: pointer;
+
 }
 /*ここまで投稿フォーム*/
 /*post.php終わり*/
@@ -1158,6 +1185,9 @@ div#load .fa-spinner .sr-only{
 }
 /*ここまでmypage*/
 /*home.html*/
+.portfolio-caption span{
+  padding-left: 10px;
+}
 .image-with-link{
   width:70px;
   height:70px;
