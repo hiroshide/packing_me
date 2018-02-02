@@ -1047,7 +1047,6 @@ div#load .fa-spinner .sr-only{
 }
 .profile-edit .editButton button{
   padding:10px 120px;
-  margin-bottom: 30px;
   border-radius: 5px;
 }
 .profile-edit .editButton button:hover{
@@ -1055,6 +1054,7 @@ div#load .fa-spinner .sr-only{
 }
 .editButton{
   text-align: right;
+  margin-bottom: 125px;
 }
 .profile-edit button{
   padding:10px 10px;
@@ -1221,4 +1221,3 @@ div#load .fa-spinner .sr-only{
   opacity: 0.6;
 }
 /*ここまでhome.html*/
->>>>>>> 7ebf834a5c2d0be69028676aa538495d3a17d7c0
